@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    height: 60px;
+    width: 100vw;
+    background-color: rgb(190, 191, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.menus {
+    display: flex;
+
+}
+
+.menus a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.profile img {
+    height: 300px;
+    width: 300px;
+   border: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.projectsRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.box{
+height: 200px;
+width: 200px;
+background-color: rgb(80, 202, 250);
+margin: 20px;
+text-align: center;
+}
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(87, 64, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
